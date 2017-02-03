@@ -3,6 +3,10 @@ body {
 	font-family: "Lato Regular", sans-serif;
 	color: #999999;
 }
+.wrapper {
+	width: 1440px;
+	margin: 0 auto;
+}
 
 header {
 	width: 100%;
@@ -35,6 +39,7 @@ header {
 .top-bar-right {
 	display: inline-block;
 	float: right;
+	padding-right: 80px;
 } 
 .top-bar-info {
 	display: inline-block;
@@ -87,7 +92,7 @@ nav {
 	text-align: center;
 }
 .navbar-list li {
-	padding: 20px 24px;
+	padding: 20px 27px;
 	letter-spacing: 1px;
 
 }
@@ -107,7 +112,7 @@ nav {
 	color:  #fc411d;
 }
 .navbar-right {
-	vertical-align: middle;
+	padding-right: 85px;;
 
 }
 .navbar-info {
@@ -139,24 +144,25 @@ nav {
 }
 .catalog-list {
 	padding: 0;
-	margin-left: 100px;
+	margin-left: 25px;
 }
-.catalog-list li:first-child {;
-	
+.catalog-list li {
+	padding: 18px 24px;;
+
 }
+
 .catalog-table {
-	width: 95%;
 	margin: 0 auto;
+	width: 88.6%;
 }
 .catalog-table table {
-	margin-bottom: 33px;
+	margin-bottom: 29px;
 }
 .catalog-table img {
-	max-width: 100%;
 }
 figure {
-	margin: 0 12px;
 	position: relative;
+	margin: 0 13px;
 }
 .catalog-table figcaption {
 	font-family: 'Playfair Display', serif;
@@ -166,7 +172,7 @@ figure {
 	font-weight: lighter;
 }
 .catalog-table figure p {
-	margin-bottom: 20px;
+	margin-bottom: 22px;
 }
 .catalog-table figcaption p {
 	color: #a0a0a0;
@@ -181,11 +187,11 @@ figure {
 	color: #fc411d;
 }
 .new-product {
-	padding: 6px 12px;
+	padding: 6px 11px;
 	border-radius: 12px;
 	position: absolute;
-	left: 25px;
-	top: 24px;
+	left: 24px;
+	top: 27px;
 	font: 12px "Lato Regular", sans-serif;
 	background-color: #1477d4;
 	color: white;
